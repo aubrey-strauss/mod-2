@@ -1,0 +1,16 @@
+Reflection Questions
+What accessibility enhancements were the most challenging to implement, and why?
+  I'm intimidated by rem conversions. This project has easy ones but I know it won't always be that way. 
+  Not using aria until absolutely necessary. 
+  The do's and don'ts of Skip Navigation will take me a bit more practive to get a better understanding. 
+  
+
+How do ARIA attributes improve the experience for users relying on assistive technologies?
+  I'd explain it as decluttering. ARIA simplies pages by removing unwanted, confusing, and unnessary items but also neatly
+  organizes pages by making menues, buttons, tab interfaces, form submissions etc. 
+
+What tools did you use to check color contrast, and how did they help?
+  I utilized https://webaim.org/resources/contrastchecker/ which I preferred over Ctrl shift C. That is something I'm looking forward to exploring more. 
+  The above site helped me hone in on the best colors possible (and was pretty fun playing around with it and thinking about color theory.)
+
+
