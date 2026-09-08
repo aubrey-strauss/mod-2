@@ -1,0 +1,138 @@
+!<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+      <div class="container"></div>
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <a class="skip-nav-link" href="#main">Skip to main content</a>
+        <div class="logo">
+            <h1 class="hero-heading">Accessible <span>Design <span>Co.</span></h1>
+
+        </div>
+        <div role="navigation" aria-label="Main Navigation">
+            <button class="menu-toggle" aria-controls="nav-links" aria-expanded="false"
+                aria-label="Toggle navigation menu">
+                <span class="menu-icon"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="#">About Us</a></li>
+                <li><a class="nav-link" href="#">Services</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main id="main">
+
+        <!-- Hero section -->
+<section class="hero-section"> 
+  <img class="hero-image" src="logo.jpg" alt="Company logo." /> 
+  <div> 
+    <p class="hero-text"><span>Smart Design. Universal Access.</span></p> 
+    <button class="hero-link" aria-label="Learn more about Accessible Design Co services">Learn More</button> 
+  </div> 
+</section>
+
+        <!-- Services section -->
+        <section class="services-section">
+            <div class="services">
+                <h2 class="services-heading">Our <span>Services</span></h2>
+                <p>Beautifully Accessible Digital Experiences:</p>
+                <p>At Accessible Design Co., we bridge the gap between creative web design and absolute digital
+                    inclusion. We build custom, high-converting websites optimized for assistive technologies like
+                    screen readers, keyboard navigation, and voice control. By prioritizing universal design from day
+                    one, we help your brand reach a broader audience, boost SEO, and stay fully compliant with WCAG and
+                    global accessibility laws.</p>
+            </div>
+            <ul class="statistics">
+                <img class="info-image" src="accessible-design-co.jpg" alt="An accessibility-friendly office space." />
+                <li class="stat">
+                    <h3 class="stat-heading">WCAG & ADA Compliant 🗹</h3>
+                </li>
+                <li class="stat">
+                    <h3 class="stat-heading">Accessible Multimedia Creation 🗹</h3>
+                </li>
+                <li class="stat">
+                    <h3 class="stat-heading">Ongoing Compliance Monitoring 🗹</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section">
+            <div class="about">
+                <div class="about-content-wrapper">
+                    <h2 class="about-heading">Our <span>Mission</span></h2>
+                    <div id="live-mission-text" aria-live="polite" aria-atomic="true"></div>
+                    <p class="about-text">At Accessible Design Co., we believe that digital experiences should be inclusive and accessible to all users, regardless of their abilities. Our mission is to create websites and digital content that are not only visually appealing but also usable by everyone, including those with disabilities. We are committed to promoting accessibility and ensuring that our clients' digital presence meets the highest standards of inclusivity.</p>
+                    <div class="about-link">
+                        <a href="#">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form section -->
+        <section class="form-section">
+            <form>
+                <h2 class="form-heading">Contact Us</h2>
+                <div id="live-form-text" aria-live="polite" aria-atomic="true"></div>
+                <p class="form-intro">Have any questions or suggestions? We'd love to hear from you!</p>
+                <label for="name">Full name</label>
+                <input class="input" id="name" type="text" placeholder="first and last name" />
+                <label for="email">Email</label>
+                <input class="input" id="email" type="email" placeholder="email address" />
+                <label for="subject">Subject</label>
+                <input class="input" id="subject" type="text" placeholder="subject" />
+                <label for="message">Message</label>
+                <textarea class="input" id="message" placeholder="your message"></textarea>
+                <button class="submit-button" type="button" onclick="submitForm()">Notify me</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="social-links">
+            <li><a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                    <p>Facebook</p>
+                </a>
+            <li>
+            <li><a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                    <p>Instagram</p>
+                </a>
+            <li>
+            <li><a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+                    <p>LinkedIn</p>
+                </a>
+            <li>
+            <li><a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                    <p>Twitter</p>
+                </a>
+            <li>
+        </ul>
+        <ul class="copywrite">
+                <p> 2026 Accessible Design Co. All rights  not reserved.</p>
+                 <p> 1234 Accessibility Lane, Inclusive City, USA</p>
+            <li>
+                </ul>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
